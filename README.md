@@ -1,3 +1,26 @@
+# LDAP Manager Python Script
+
+This script provides a command-line interface for managing LDAP (Active Directory) user accounts and Service Principal Names (SPNs) using the `ldap3` Python library. It supports a variety of LDAP operations through an interactive menu.
+
+## Features
+- List current SPNs for a user
+- Add an SPN to a user
+- Remove an SPN from a user
+- Search for users by filter
+- Show all attributes for a user
+- Reset a user's password
+- Enable or disable a user account
+- Create a new user
+
+## Requirements
+- Python 3.x
+- `ldap3` library
+
+Install the required library with:
+```sh
+pip install ldap3
+```
+
 ## Usage
 1. Run the script:
    ```sh
